@@ -1,0 +1,77 @@
+@import "netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css" * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(backgroundinput.jpg);
+  color: blue;
+}
+.sec1 {
+  border: 2px solid purple;
+  background-image: url(backgroundinput.jpg);
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.paiement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffd700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  animation: animate 1s ease-out infinite;
+}
+@keyframes animate {
+  0% {
+    color: dodgerblue;
+  }
+  50% {
+    color: darkturquoise;
+  }
+  100% {
+    color: deepskyblue;
+  }
+}
+.inp1 {
+  display: grid;
+  width: 400px;
+  padding: 10px 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  filter: none;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  border-radius: 100px;
+}
+.inp1::placeholder {
+  word-spacing: 5px;
+}
+.inp1:hover {
+  color: #000;
+}
+.btn {
+  margin-left: 150px;
+  padding-left: 40px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 40px;
+  color: black;
+  border: none;
+  border-radius: 100px;
+  background: grey;
+}
+.btn:hover {
+  background: transparent;
+  color: grey;
+}
